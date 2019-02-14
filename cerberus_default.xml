@@ -3,7 +3,11 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-
+		   
+	<remote  name="cerberus"
+           revision="Pie"
+           fetch="https://github.com/CerberusOS-Future" />
+		   
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
 
@@ -15,7 +19,7 @@
 
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="gzosp" />
-  <project path="build/make" name="build" remote="gzosp" >
+  <project path="build/make" name="build" remote="cerberus" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,7 +28,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong"  remote="gzosp" >
+  <project path="build/soong" name="build_soong"  remote="cerberus" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -80,6 +84,6 @@
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="gzosp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
-  <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
+  <project path="vendor/cerberus" name="vendor_gzosp" remote="cerberus" />
 
 </manifest>
