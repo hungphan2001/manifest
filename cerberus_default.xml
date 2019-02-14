@@ -84,6 +84,6 @@
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="gzosp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
-  <project path="vendor/cerberus" name="vendor_gzosp" remote="cerberus" />
+  <project path="vendor/cerberus" name="vendor_cerberus" remote="cerberus" />
 
 </manifest>
