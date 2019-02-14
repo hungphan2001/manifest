@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CerberusOS-Future/manifest/Pie/cerberus_banner.png">
+<img src="https://raw.githubusercontent.com/CerberusOS/manifest/Pie/cerberus_banner.png">
 
 CerberusOS
 ========
