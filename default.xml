@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-9.0.0_r31" />
+  
+  <remote  name="cerberus"
+           fetch="https://android.googlesource.com"
+           revision="refs/heads/Pie" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
