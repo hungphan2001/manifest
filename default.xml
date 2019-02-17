@@ -8,7 +8,7 @@
   
   <remote  name="cerberus"
            fetch="https://github.com/CerberusOS
-           revision="Pie" />
+           revision="refs/heads/Pie" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
