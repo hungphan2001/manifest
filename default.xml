@@ -7,7 +7,7 @@
            revision="refs/tags/android-9.0.0_r31" />
   
   <remote  name="cerberus"
-           fetch="https://github.com/CerberusOS
+           fetch="https://github.com/CerberusOS"
            revision="refs/heads/Pie" />
 
   <!-- AOSP -->
