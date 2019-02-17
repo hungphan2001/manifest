@@ -18,7 +18,7 @@
            sync-j="8" />
 
   <!-- GZOSP -->
-  <project path="manifest" name="manifest" remote="gzosp" />
+  <project path="manifest" name="manifest" remote="cerberus" />
   <project path="build/make" name="build" remote="cerberus" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -39,7 +39,7 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="gzosp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="gzosp" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="gzosp" />
-  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="cerberus" />
 
   <project path="art" name="art" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
@@ -53,11 +53,11 @@
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="cerberus" />
+  <project path="frameworks/base" name="frameworks_base" remote="cerberus" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="cerberus" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="cerberus" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="cerberus" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="gzosp" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" />
@@ -78,12 +78,12 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" remote="gzosp" />
   <project path="system/bt" name="system_bt" remote="gzosp" />
-  <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
-  <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
+  <project path="system/core" name="system_core" groups="pdk" remote="cerberus" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="cerberus" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="gzosp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="cerberus" />
   <project path="vendor/cerberus" name="vendor_cerberus" remote="cerberus" />
 
 </manifest>
