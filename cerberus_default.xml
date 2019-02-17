@@ -4,8 +4,8 @@
   <remote  name="github"
            fetch="https://github.com" />
 	
-	<remote  name="cerberus"
-           fetch="https://github.com/CerberusOS" />
+	
+
 
 		   
   <remote  name="gzosp"
