@@ -4,10 +4,6 @@
   <remote  name="github"
            fetch="https://github.com" />
 		   
-	<remote  name="cerberus"
-           revision="Pie"
-           fetch="https://github.com/CerberusOS" />
-		   
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
 
