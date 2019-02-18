@@ -3,10 +3,6 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-	
-	
-
-
 		   
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
