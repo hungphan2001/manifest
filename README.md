@@ -24,3 +24,9 @@ Then to start build
 ```
   mka cerberus
 ```
+
+## Credits
+-  [GZOSP](http://GitHub.com/gzosp)
+-  [LineageOS](http://GitHub.com/LineageOS)
+-  [BaikalOS](http://GitHub.com/BaikalOS)
+-  [AospExtended](http://GitHub.com/AospExtended)
