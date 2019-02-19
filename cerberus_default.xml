@@ -60,6 +60,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="gzosp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="gzosp" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" groups="pdk-fs" remote="cerberus" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="gzosp" />
@@ -67,6 +68,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="gzosp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gzosp" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="cerberus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="cerberus" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="gzosp" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="gzosp" />
