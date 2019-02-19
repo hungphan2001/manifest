@@ -6,7 +6,7 @@ CerberusOS
 ## Downloading Source
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/CerberusOS/manifest.git -b Pie
+	repo init -u https://github.com/hungphan2001/manifest.git -b Pie
 
 Then to sync, use this command:
 
